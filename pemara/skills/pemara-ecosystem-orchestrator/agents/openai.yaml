@@ -1,0 +1,5 @@
+interface:
+  display_name: Manutenção do catálogo de skills
+  short_description: Manutenção do catálogo de skills
+  default_prompt: Use $pemara-ecosystem-orchestrator para conduzir a etapa descrita
+    no projeto.

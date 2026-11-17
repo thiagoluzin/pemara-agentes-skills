@@ -1,0 +1,4 @@
+interface:
+  display_name: "Helena - Wan2.2 e Godot"
+  short_description: "Reuso, autoria e integração de sprites da Helena"
+  default_prompt: "Use $terra-helena-wan-sprites para localizar a caminhada existente e integrar os sprites da Helena."

@@ -1,0 +1,13 @@
+{
+  "skill": "unity-editor-tools",
+  "repository": "https://github.com/Nice-Wolf-Studio/unity-claude-skills",
+  "commit": "a149d3e995420432f52b0899092daa4b069f441f",
+  "upstream_path": "skills/unity-editor-tools",
+  "files": {
+    "references/custom-inspectors.md": "a99f741210f3172fae26a38e1fb54331d5608650700b6a803366788c961d4c3d",
+    "references/editor-windows.md": "d0c0487af9c8fc1ecaa30ee0b814686ab8f06ac1d2ca27e926c758ab694ae7d6",
+    "references/property-drawers.md": "8b6fccd71f8228c8b066bf73b25420af30528fd5100cf87ee92f8d15b4d49dbf",
+    "SKILL.md": "ea836546b71e19625631b357f514cdaa53a542350aff87c497ce43af58364e5c",
+    "LICENSE": "ff3278a6b7546f0f37ab010ec47700a024ed3ac98dcb0c70905484207fc4e546"
+  }
+}

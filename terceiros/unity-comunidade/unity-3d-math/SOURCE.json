@@ -1,0 +1,11 @@
+{
+  "skill": "unity-3d-math",
+  "repository": "https://github.com/Nice-Wolf-Studio/unity-claude-skills",
+  "commit": "a149d3e995420432f52b0899092daa4b069f441f",
+  "upstream_path": "skills/unity-3d-math",
+  "files": {
+    "references/spatial-math-deep-dive.md": "fe75454431ef974ab72d76928daf4005b797f950f074329b9325dc6683d08392",
+    "SKILL.md": "5681673840fd0f7f71b665c666219fce15e22d76c1f84062a0d8d79709a4d184",
+    "LICENSE": "ff3278a6b7546f0f37ab010ec47700a024ed3ac98dcb0c70905484207fc4e546"
+  }
+}

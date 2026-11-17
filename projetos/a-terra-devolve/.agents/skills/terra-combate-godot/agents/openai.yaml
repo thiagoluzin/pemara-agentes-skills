@@ -1,0 +1,4 @@
+interface:
+  display_name: "A Terra Devolve - Combate"
+  short_description: "Armas, mira fixa, ameaça e recursos no Godot 2D"
+  default_prompt: "Use $terra-combate-godot para implementar um encontro de sobrevivência no Godot."

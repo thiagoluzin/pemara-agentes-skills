@@ -1,0 +1,11 @@
+{
+  "skill": "unity-game-architecture",
+  "repository": "https://github.com/Nice-Wolf-Studio/unity-claude-skills",
+  "commit": "a149d3e995420432f52b0899092daa4b069f441f",
+  "upstream_path": "skills/unity-game-architecture",
+  "files": {
+    "references/architecture-patterns.md": "f0d7dbf07d9a16d8e2bce1760d604fa66990415d56e8eb83e509a04082ba150c",
+    "SKILL.md": "61661ac44eb48d564e84216ac5ce52f9ea5532a35f9e226e76e9895eb2b87a21",
+    "LICENSE": "ff3278a6b7546f0f37ab010ec47700a024ed3ac98dcb0c70905484207fc4e546"
+  }
+}

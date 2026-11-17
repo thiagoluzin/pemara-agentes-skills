@@ -1,0 +1,4 @@
+interface:
+  display_name: "A Terra Devolve - Narrativa"
+  short_description: "História, pistas, hipóteses e consequências"
+  default_prompt: "Use $terra-narrativa-investigacao para revisar causalidade, mistérios e pistas de A Terra Devolve."

@@ -1,0 +1,11 @@
+{
+  "skill": "unity-packages-services",
+  "repository": "https://github.com/Nice-Wolf-Studio/unity-claude-skills",
+  "commit": "a149d3e995420432f52b0899092daa4b069f441f",
+  "upstream_path": "skills/unity-packages-services",
+  "files": {
+    "references/common-packages.md": "bab6b489b5a294250f0ab943c753462ca739452686eb0bb8a1921e475c78c679",
+    "SKILL.md": "80b8e8fb0849ef151c3d450b500c81f361441d50d633ee5369f34b3030d6915f",
+    "LICENSE": "ff3278a6b7546f0f37ab010ec47700a024ed3ac98dcb0c70905484207fc4e546"
+  }
+}

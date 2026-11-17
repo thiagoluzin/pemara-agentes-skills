@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codificador Pemara"
+  short_description: "Implementação de código com prova real"
+  default_prompt: "Use $pemara-codificador para implementar esta mudança e verificá-la com evidências."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "A Terra Devolve - Áudio"
+  short_description: "Trilha escolhida, ambientes, silêncio e sinais"
+  default_prompt: "Use $terra-audio-integracao para preparar os cues e integrar o áudio escolhido de A Terra Devolve."

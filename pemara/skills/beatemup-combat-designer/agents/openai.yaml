@@ -1,0 +1,5 @@
+interface:
+  display_name: Mecânicas de beat-em-up digital
+  short_description: Mecânicas de beat-em-up digital
+  default_prompt: Use $beatemup-combat-designer para conduzir a etapa descrita no
+    projeto.

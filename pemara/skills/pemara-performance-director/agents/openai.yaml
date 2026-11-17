@@ -1,0 +1,5 @@
+interface:
+  display_name: Direção de atuação em cena
+  short_description: Direção de atuação em cena
+  default_prompt: Use $pemara-performance-director para conduzir a etapa descrita
+    no projeto.

@@ -1,0 +1,11 @@
+{
+  "skill": "unity-physics-queries",
+  "repository": "https://github.com/Nice-Wolf-Studio/unity-claude-skills",
+  "commit": "a149d3e995420432f52b0899092daa4b069f441f",
+  "upstream_path": "skills/unity-physics-queries",
+  "files": {
+    "references/query-decision-tree.md": "ece7fc356d4018aa49d4deb095a09c48bcf337db28a55ed0fd2c508cceca3352",
+    "SKILL.md": "9c3fbd5ef723f4515d4e085ab7d04cde5f9d85cf2cb983436fd94b6f168c1545",
+    "LICENSE": "ff3278a6b7546f0f37ab010ec47700a024ed3ac98dcb0c70905484207fc4e546"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "skill": "unity-input-correctness",
+  "repository": "https://github.com/Nice-Wolf-Studio/unity-claude-skills",
+  "commit": "a149d3e995420432f52b0899092daa4b069f441f",
+  "upstream_path": "skills/unity-input-correctness",
+  "files": {
+    "references/rebinding-and-multiplayer.md": "25c1f7d678de4f89d379949461d7cd3b000b42a69f52e64284ee3a96deabf801",
+    "SKILL.md": "a9d6d8109cbf7b0611d53c162dae40c4200a41d003bbb25f0676ea17e357cc7b",
+    "LICENSE": "ff3278a6b7546f0f37ab010ec47700a024ed3ac98dcb0c70905484207fc4e546"
+  }
+}

@@ -1,0 +1,5 @@
+interface:
+  display_name: Direção de interpretação falada
+  short_description: Direção de interpretação falada
+  default_prompt: Use $pemara-voice-performance-director para conduzir a etapa descrita
+    no projeto.

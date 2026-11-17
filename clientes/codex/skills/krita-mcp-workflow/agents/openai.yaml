@@ -1,0 +1,4 @@
+interface:
+  display_name: "Krita: edição nativa"
+  short_description: "Edição nativa com documentos e camadas seguros"
+  default_prompt: "Use $krita-mcp-workflow para editar este documento no Krita e conferir o resultado."

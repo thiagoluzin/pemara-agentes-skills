@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pemara Quality Unify"
+  short_description: "Auditoria universal de qualidade e Unicode"
+  default_prompt: "Use $pemara-quality-unify para auditar este projeto e corrigir falhas seguras."

@@ -1,0 +1,4 @@
+interface:
+  display_name: Continuidade de ação encenada
+  short_description: Continuidade de ação encenada
+  default_prompt: Use $pemara-combate-aprovado para conduzir a etapa descrita no projeto.

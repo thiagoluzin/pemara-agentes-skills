@@ -1,0 +1,5 @@
+interface:
+  display_name: Continuidade de movimento em cena
+  short_description: Continuidade de movimento em cena
+  default_prompt: Use $pemara-live-action-kinetic-supervisor para conduzir a etapa
+    descrita no projeto.

@@ -1,0 +1,11 @@
+{
+  "skill": "unity-state-machines",
+  "repository": "https://github.com/Nice-Wolf-Studio/unity-claude-skills",
+  "commit": "a149d3e995420432f52b0899092daa4b069f441f",
+  "upstream_path": "skills/unity-state-machines",
+  "files": {
+    "references/state-system-scaffolds.md": "8415b301630e88887651467391ebd6134812bac4c55b2c72d66a127532bcc54b",
+    "SKILL.md": "19fd60653296b7399e17b80ba16e197671eb0e27c6f77f3dff63a8855c94ba97",
+    "LICENSE": "ff3278a6b7546f0f37ab010ec47700a024ed3ac98dcb0c70905484207fc4e546"
+  }
+}

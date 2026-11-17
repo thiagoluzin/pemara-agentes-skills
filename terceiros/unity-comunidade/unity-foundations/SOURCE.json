@@ -1,0 +1,13 @@
+{
+  "skill": "unity-foundations",
+  "repository": "https://github.com/Nice-Wolf-Studio/unity-claude-skills",
+  "commit": "a149d3e995420432f52b0899092daa4b069f441f",
+  "upstream_path": "skills/unity-foundations",
+  "files": {
+    "references/component-lifecycle.md": "63ce5790069f7d1acc6f386500d1cc445eed1a2840e31b9ddc27be48e65e3f9a",
+    "references/gameobject-api.md": "3b5593e5a57424a042d7e87d8331e1f2136cc98881b0ee36c3e844e1e135ad75",
+    "references/prefabs-and-scenes.md": "c5a919551efac9483f513941b51fbac39902051af265dd160d94a7170fabd957",
+    "SKILL.md": "14d5fc71d21a26c7cd1a60383cd4e1f5d3d9c868d781bfbf8c4d1e66cee79133",
+    "LICENSE": "ff3278a6b7546f0f37ab010ec47700a024ed3ac98dcb0c70905484207fc4e546"
+  }
+}

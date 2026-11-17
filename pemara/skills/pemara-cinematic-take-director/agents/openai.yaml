@@ -1,0 +1,5 @@
+interface:
+  display_name: Direção de um take cinematográfico
+  short_description: Direção de um take cinematográfico
+  default_prompt: Use $pemara-cinematic-take-director para conduzir a etapa descrita
+    no projeto.

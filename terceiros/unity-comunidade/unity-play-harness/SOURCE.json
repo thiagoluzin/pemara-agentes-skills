@@ -1,0 +1,23 @@
+{
+  "skill": "unity-play-harness",
+  "repository": "https://github.com/tipoLi5890/unity-dev-skills",
+  "commit": "97ba3ca019d80a327c5840271ea3cc83b2196f1b",
+  "upstream_path": "skills/unity-play-harness",
+  "files": {
+    "reference/complaint-to-test.md": "4f4c87d15cda0ab1bf5cbee843562e9a5b8d17a73a30083f8080ce076f59cacc",
+    "reference/journeys.md": "cf078a4fdfcd98d99284724e934f32f476dba0d696dba89c978648708fc5d9b7",
+    "reference/probe-contract.md": "c7c0d5a9846c541ac74bc8b15d5d2506d6499c6ad97dfac36213698437e4a66b",
+    "reference/situations.md": "64927205bad044dc411f8db645dbdfe9615130a93b3adb717fa4925704bc0bdf",
+    "reference/timeline-format.md": "bc1b9b5d46296b39c05ca9a8e2b6e20fb13f199f663d8b6d5db98ab8c06be7fe",
+    "resources/Editor/ProbeCommands.cs": "e7f4e78fab106b0fce020f2362c000c7b104dd65ce449c3151a70b34c25847d8",
+    "resources/GameProbe.cs": "1e7ecdd5a36dd1e91fe2716ab622e1a6368c1526bb6cb78723c19b9c43ca7542",
+    "resources/JourneyRecorder.cs": "b88223b12a7cc40f4321d04bceb8ada26e9da2ad469eeec88a651202cbab34cc",
+    "resources/Situations.cs": "6185da60d9f785ef1c19e603949df1ec04c9fe8c2e5d3e7ce72b45e94caae377",
+    "scripts/journey_report.py": "a6eb3866f6c42e13526242c75474a1b1f6c1ac510c5a33f77dcc0db4d85ff42f",
+    "scripts/probe.py": "3bf234e4ef171453ba57bed914962b608234fe2648ce280097fadfec7173ec82",
+    "SKILL.md": "cc19aec4985ab67eaa2e69b3c5e0995f5c5b425fa028952905e29a3139c6f983",
+    "templates/CourierSituations.cs": "baaf234140a8990d66da6d6c011924a18a9bcb15f048b3678cbf43cf847a11e1",
+    "templates/JourneyTest.cs": "357ecf0676032fcc0829a54624ff13840cd2408e0999169ba77986e012652c8a",
+    "LICENSE": "b306d66ca5b9e43c3f12f1189f3b4338527a660d8ecb3bf36496e3b3b9a32e05"
+  }
+}

@@ -1,0 +1,5 @@
+interface:
+  display_name: Continuidade de personagens e cenários
+  short_description: Continuidade de personagens e cenários
+  default_prompt: Use $pemara-live-action-continuity para conduzir a etapa descrita
+    no projeto.

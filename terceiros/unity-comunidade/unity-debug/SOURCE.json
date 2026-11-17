@@ -1,0 +1,19 @@
+{
+  "skill": "unity-debug",
+  "repository": "https://github.com/tipoLi5890/unity-dev-skills",
+  "commit": "97ba3ca019d80a327c5840271ea3cc83b2196f1b",
+  "upstream_path": "skills/unity-debug",
+  "files": {
+    "reference/cli-harness.md": "dc8ced5999e92db51e255420c71399ab30a67038a5f226a76563a3764344f66e",
+    "reference/editor-control.md": "89bf3177f98fda2d768db8eefd6aa1afb9adb5f085bf3cbfbeb2cdf24ce6c482",
+    "reference/harness-trust.md": "9cb370c0ce24aa1ef5893201c2521fb65703906ea658bd18b83259167105c172",
+    "reference/log-triage.md": "6177487a74c55211292f3dd48502829fc63cb5512f5774e1f7cf933a2166225e",
+    "reference/motion-and-timing.md": "6dfa75bde4dfb002a64f4235b1d9c126bee89328465c0b5b9f7579e9127dd698",
+    "reference/test-verdicts.md": "747188b426eadb6d4284bacf230faa396dbd4262d4cef22aa422fb85ea1d53df",
+    "reference/unity-gotchas.md": "0b20b796a3043ff91f6286ac44c92c00d6fda55e96490fc5d607261446e6d444",
+    "reference/visual-checks.md": "c9158ef782e1a69f7b81de948076e7aea31c022f69f7e29e20f064308e2cb484",
+    "resources/DevDebug.cs": "118bf7d1db9c05708a65e4b4079b8278dbc3013ea2ed6dc669b6a69f8c21db1f",
+    "SKILL.md": "f8b2c256cb6cbc3b508de9bffcbc483623e949cdde7ebf87ab18bb3af0a6578c",
+    "LICENSE": "b306d66ca5b9e43c3f12f1189f3b4338527a660d8ecb3bf36496e3b3b9a32e05"
+  }
+}

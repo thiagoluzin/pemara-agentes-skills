@@ -1,0 +1,157 @@
+{
+  "agent": {
+    "orquestrador": {
+      "description": "Assistente principal para conversa, pesquisa e execução; coordena especialistas quando necessário e entrega evidência proporcional ao pedido.",
+      "mode": "primary",
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "variant": "xhigh",
+      "steps": 360,
+      "prompt": "{file:./prompts/orquestrador.md}",
+      "permission": {
+        "edit": "allow",
+        "task": {
+          "*": "deny",
+          "codificador": "allow",
+          "engenheiro-software": "allow",
+          "debugger": "allow",
+          "analista-qualidade": "allow",
+          "critico-video-gauntlet": "allow",
+          "deploy": "allow",
+          "pesquisador": "allow"
+        }
+      }
+    },
+    "build": {
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "variant": "xhigh",
+      "steps": 360,
+      "permission": {
+        "task": {
+          "*": "allow",
+          "codificador": "allow",
+          "engenheiro-software": "allow",
+          "debugger": "allow",
+          "analista-qualidade": "allow",
+          "deploy": "allow"
+        }
+      }
+    },
+    "general": {
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "variant": "low",
+      "steps": 160
+    },
+    "explore": {
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "variant": "low",
+      "steps": 120
+    },
+    "compaction": {
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "variant": "low",
+      "prompt": "{file:./prompts/compaction.md}"
+    },
+    "codificador": {
+      "description": "Implementa mudanças de código completas e só entrega depois de executar a verificação adequada.",
+      "mode": "subagent",
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "variant": "medium",
+      "steps": 260,
+      "prompt": "{file:./prompts/codificador.md}",
+      "permission": {
+        "edit": "allow",
+        "task": "deny"
+      }
+    },
+    "engenheiro-software": {
+      "description": "Projeta soluções ponta a ponta, define contratos e coordena implementação, debug e qualidade.",
+      "mode": "subagent",
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "variant": "medium",
+      "steps": 260,
+      "prompt": "{file:./prompts/engenheiro-software.md}",
+      "permission": {
+        "edit": "allow",
+        "task": {
+          "*": "deny",
+          "codificador": "allow",
+          "debugger": "allow",
+          "analista-qualidade": "allow",
+          "deploy": "allow"
+        }
+      }
+    },
+    "debugger": {
+      "description": "Reproduz falhas, encontra a causa raiz e valida a correção contra regressões.",
+      "mode": "subagent",
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "variant": "medium",
+      "steps": 220,
+      "prompt": "{file:./prompts/debugger.md}",
+      "permission": {
+        "edit": "allow",
+        "task": "deny"
+      }
+    },
+    "analista-qualidade": {
+      "description": "Faz validação independente, procura falhas e emite veredito somente com evidência reproduzível.",
+      "mode": "subagent",
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "variant": "medium",
+      "steps": 180,
+      "prompt": "{file:./prompts/analista-qualidade.md}",
+      "permission": {
+        "edit": "deny",
+        "task": "deny"
+      }
+    },
+    "critico-video-gauntlet": {
+      "description": "Crítico visual isolado do piloto Gauntlet: compara o take real à referência e registra apenas uma recomendação rastreável.",
+      "mode": "subagent",
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "variant": "medium",
+      "steps": 180,
+      "prompt": "{file:./prompts/critico-video-gauntlet.md}",
+      "permission": {
+        "edit": "deny",
+        "task": "deny"
+      }
+    },
+    "deploy": {
+      "description": "Prepara e executa deploy autorizado com preflight, smoke test, observabilidade e rollback.",
+      "mode": "subagent",
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "variant": "medium",
+      "steps": 180,
+      "prompt": "{file:./prompts/deploy.md}",
+      "permission": {
+        "edit": "allow",
+        "task": "deny"
+      }
+    },
+    "pesquisador": {
+      "description": "Pesquisa fatos, documentação e fontes primárias em uma pergunta delimitada; retorna evidências e limitações sem editar a entrega.",
+      "mode": "subagent",
+      "temperature": 0.4,
+      "top_p": 0.95,
+      "variant": "low",
+      "steps": 100,
+      "prompt": "{file:./prompts/pesquisador.md}",
+      "permission": {
+        "edit": "deny",
+        "task": "deny"
+      }
+    }
+  }
+}

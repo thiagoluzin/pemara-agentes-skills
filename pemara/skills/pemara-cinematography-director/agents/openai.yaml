@@ -1,0 +1,5 @@
+interface:
+  display_name: Direção de fotografia
+  short_description: Direção de fotografia
+  default_prompt: Use $pemara-cinematography-director para conduzir a etapa descrita
+    no projeto.

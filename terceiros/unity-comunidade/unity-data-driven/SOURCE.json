@@ -1,0 +1,11 @@
+{
+  "skill": "unity-data-driven",
+  "repository": "https://github.com/Nice-Wolf-Studio/unity-claude-skills",
+  "commit": "a149d3e995420432f52b0899092daa4b069f441f",
+  "upstream_path": "skills/unity-data-driven",
+  "files": {
+    "references/data-pipeline-patterns.md": "0418f729019fce683df69c736c8b76b5dc1fade8030af82cc0db7df249d32ed2",
+    "SKILL.md": "265571f28c466c5b9726aa5f96de97ec0b68c7be798d71ec2ddae42fa319344b",
+    "LICENSE": "ff3278a6b7546f0f37ab010ec47700a024ed3ac98dcb0c70905484207fc4e546"
+  }
+}

@@ -1,0 +1,5 @@
+interface:
+  display_name: Supervisão de sequência live action
+  short_description: Supervisão de sequência live action
+  default_prompt: Use $pemara-live-action-showrunner para conduzir a etapa descrita
+    no projeto.

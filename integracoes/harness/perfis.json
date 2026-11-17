@@ -1,0 +1,36 @@
+{
+  "perfis": [
+    {
+      "id": "pemara",
+      "bundles": [
+        "@deepseek-ai/dsh-base",
+        "@deepseek-ai/dsh-headless"
+      ],
+      "definicao_completa": "https://github.com/thiagoluzin/pemara-harness/tree/cad21c017a30ad30acfff9992f88283493fea277/.runtime/dsh-home/profiles/pemara"
+    },
+    {
+      "id": "pemara-builder",
+      "bundles": [
+        "@deepseek-ai/dsh-base",
+        "@deepseek-ai/dsh-headless"
+      ],
+      "definicao_completa": "https://github.com/thiagoluzin/pemara-harness/tree/cad21c017a30ad30acfff9992f88283493fea277/.runtime/dsh-home-builder/profiles/pemara-builder"
+    },
+    {
+      "id": "pemara-builder-v2",
+      "bundles": [
+        "@deepseek-ai/dsh-base",
+        "@deepseek-ai/dsh-headless"
+      ],
+      "definicao_completa": "https://github.com/thiagoluzin/pemara-harness/tree/cad21c017a30ad30acfff9992f88283493fea277/.runtime/dsh-home-builder/profiles/pemara-builder-v2"
+    }
+  ],
+  "conectores": [
+    {
+      "id": "claude-code",
+      "funcao": "Delegação de código pelo host autorizado",
+      "ativado_por_padrao": false,
+      "referencia": "https://github.com/thiagoluzin/pemara-harness/blob/cad21c017a30ad30acfff9992f88283493fea277/src/provider-store.mjs"
+    }
+  ]
+}

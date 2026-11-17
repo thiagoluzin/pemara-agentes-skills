@@ -1,0 +1,3 @@
+interface:
+  display_name: "QA de jogos Phaser"
+  short_description: "Criar regressões de lógica e testes de runtime para jogos Phaser"

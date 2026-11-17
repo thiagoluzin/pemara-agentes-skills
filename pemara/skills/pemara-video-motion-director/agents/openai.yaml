@@ -1,0 +1,5 @@
+interface:
+  display_name: Direção e leitura de movimento
+  short_description: Direção e leitura de movimento
+  default_prompt: Use $pemara-video-motion-director para conduzir a etapa descrita
+    no projeto.

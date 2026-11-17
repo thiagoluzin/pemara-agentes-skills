@@ -1,0 +1,5 @@
+interface:
+  display_name: Direção da produção de vídeo
+  short_description: Direção da produção de vídeo
+  default_prompt: Use $pemara-video-production-lead para conduzir a etapa descrita
+    no projeto.

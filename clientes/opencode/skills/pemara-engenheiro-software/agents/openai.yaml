@@ -1,0 +1,4 @@
+interface:
+  display_name: "Engenheiro de Software Pemara"
+  short_description: "Arquitetura e entrega ponta a ponta"
+  default_prompt: "Use $pemara-engenheiro-software para projetar e entregar esta solução com validação."

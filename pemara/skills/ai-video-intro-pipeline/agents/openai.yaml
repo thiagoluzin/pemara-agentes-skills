@@ -1,0 +1,4 @@
+interface:
+  display_name: Intro de jogo por planos
+  short_description: Intro de jogo por planos
+  default_prompt: Use $ai-video-intro-pipeline para conduzir a etapa descrita no projeto.

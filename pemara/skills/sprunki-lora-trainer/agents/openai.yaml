@@ -1,0 +1,4 @@
+interface:
+  display_name: Avaliação de LoRA de personagem
+  short_description: Avaliação de LoRA de personagem
+  default_prompt: Use $sprunki-lora-trainer para conduzir a etapa descrita no projeto.

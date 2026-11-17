@@ -1,0 +1,11 @@
+{
+  "skill": "unity-save-system",
+  "repository": "https://github.com/Nice-Wolf-Studio/unity-claude-skills",
+  "commit": "a149d3e995420432f52b0899092daa4b069f441f",
+  "upstream_path": "skills/unity-save-system",
+  "files": {
+    "references/save-load-implementation.md": "7a2ee6cce7b6b0e421cd00015f720bb389831e6cc237b23c98027f5cc89f77e9",
+    "SKILL.md": "5ed497c91af62d6fdc3ffb0932d5803efde9a7392d83bae8818988a47ceb908a",
+    "LICENSE": "ff3278a6b7546f0f37ab010ec47700a024ed3ac98dcb0c70905484207fc4e546"
+  }
+}

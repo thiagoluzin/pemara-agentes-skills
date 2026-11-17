@@ -1,0 +1,4 @@
+interface:
+  display_name: "Krita: sprites e animação"
+  short_description: "Quadros completos, registro e ciclos revisáveis"
+  default_prompt: "Use $krita-sprite-animation para preparar e revisar este ciclo de sprites no Krita."

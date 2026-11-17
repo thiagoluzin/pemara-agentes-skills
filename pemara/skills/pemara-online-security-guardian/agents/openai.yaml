@@ -1,0 +1,5 @@
+interface:
+  display_name: Governança de segurança de publicação
+  short_description: Governança de segurança de publicação
+  default_prompt: Use $pemara-online-security-guardian para conduzir a etapa descrita
+    no projeto.

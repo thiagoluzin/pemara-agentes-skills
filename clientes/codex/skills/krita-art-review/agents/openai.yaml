@@ -1,0 +1,4 @@
+interface:
+  display_name: "Krita: crítica de arte"
+  short_description: "Revisão independente de arte com evidências"
+  default_prompt: "Use $krita-art-review para avaliar estes arquivos de arte e registrar os limites da revisão."

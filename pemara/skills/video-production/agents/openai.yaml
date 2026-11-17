@@ -1,0 +1,4 @@
+interface:
+  display_name: Execução técnica de edição de vídeo
+  short_description: Execução técnica de edição de vídeo
+  default_prompt: Use $video-production para conduzir a etapa descrita no projeto.

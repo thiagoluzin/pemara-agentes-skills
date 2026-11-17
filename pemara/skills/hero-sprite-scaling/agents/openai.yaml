@@ -1,0 +1,4 @@
+interface:
+  display_name: Escala de sprites no motor
+  short_description: Escala de sprites no motor
+  default_prompt: Use $hero-sprite-scaling para conduzir a etapa descrita no projeto.

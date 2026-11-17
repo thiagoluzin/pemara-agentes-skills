@@ -1,0 +1,226 @@
+{
+  "papeis": [
+    {
+      "skill": "pemara-video-production-lead",
+      "funcao": "sequence_production_and_artistic_review"
+    },
+    {
+      "skill": "pemara-cinematography-director",
+      "funcao": "blocking_camera_lighting_and_visual_readability"
+    },
+    {
+      "skill": "pemara-performance-director",
+      "funcao": "playable_intention_acting_reaction_and_recovery"
+    },
+    {
+      "skill": "pemara-film-editor",
+      "funcao": "approved_source_selection_rhythm_and_causal_cuts"
+    },
+    {
+      "skill": "pemara-live-action-showrunner",
+      "funcao": "live_action_risk_routing_and_contract"
+    },
+    {
+      "skill": "pemara-live-action-combat-director",
+      "funcao": "signature_moves_power_ownership_and_contact_physics"
+    },
+    {
+      "skill": "pemara-live-action-kinetic-supervisor",
+      "funcao": "identity_performance_balance_and_kinetic_handoffs"
+    },
+    {
+      "skill": "pemara-live-action-continuity",
+      "funcao": "moving_handoff_and_connector_contract"
+    },
+    {
+      "skill": "pemara-live-action-qc",
+      "funcao": "human_material_temporal_and_finishing_qc"
+    },
+    {
+      "skill": "project-planner",
+      "funcao": "brief_and_schedule"
+    },
+    {
+      "skill": "creative-director",
+      "funcao": "screenplay_and_visual_language"
+    },
+    {
+      "skill": "pemara-cinematic-take-director",
+      "funcao": "take_story_contract"
+    },
+    {
+      "skill": "image-production",
+      "funcao": "anchor_creation_and_qc"
+    },
+    {
+      "skill": "pemara-video-motion-director",
+      "funcao": "continuous_motion_contract"
+    },
+    {
+      "skill": "video-production",
+      "funcao": "technical_qc_and_master"
+    },
+    {
+      "skill": "game-audio-designer",
+      "funcao": "foley_and_mix_direction"
+    },
+    {
+      "skill": "audio-analysis",
+      "funcao": "loudness_and_sync_qc"
+    },
+    {
+      "skill": "debugger",
+      "funcao": "root_cause_debug"
+    },
+    {
+      "skill": "test-engineer",
+      "funcao": "regression_gates"
+    },
+    {
+      "skill": "performance-optimizer",
+      "funcao": "quality_preserving_profiling"
+    },
+    {
+      "skill": "documentation-and-adrs",
+      "funcao": "traceability_and_restore_docs"
+    },
+    {
+      "skill": "automation-engineer",
+      "funcao": "serial_queue_and_backup"
+    },
+    {
+      "skill": "h3-prompt-writing",
+      "etapas": [
+        "03_h3_prompt_compile"
+      ]
+    }
+  ],
+  "etapas": [
+    {
+      "id": "01_story_contract",
+      "label": "Producao, roteiro e direcao dos takes",
+      "agents": [
+        "pemara-video-production-lead",
+        "pemara-cinematic-take-director",
+        "pemara-performance-director",
+        "pemara-cinematography-director",
+        "pemara-film-editor",
+        "pemara-live-action-showrunner",
+        "pemara-live-action-combat-director",
+        "pemara-live-action-kinetic-supervisor",
+        "project-planner",
+        "creative-director"
+      ],
+      "output": "mapa unico, cameras/percursos/estados compartilhados, contrato verificavel e bloco piloto com fronteira; intencao, atuacao, cobertura e cortes",
+      "gate": "owner_story_approval"
+    },
+    {
+      "id": "02_anchor_lock",
+      "label": "Fotos ancora para revisao",
+      "agents": [
+        "image-production",
+        "pemara-cinematography-director",
+        "pemara-cinematic-take-director"
+      ],
+      "output": "ancoras revisadas pelo proprietario, vinculadas por hash e com elenco conferido; tratamento conforme contrato vigente e fonte anterior preservada",
+      "gate": "owner_anchor_approval"
+    },
+    {
+      "id": "03_h3_prompt_compile",
+      "label": "Prompt H3 oficial amarrado",
+      "agents": [
+        "pemara-performance-director",
+        "pemara-cinematography-director",
+        "creative-director",
+        "pemara-live-action-combat-director",
+        "pemara-video-motion-director",
+        "h3-prompt-writing"
+      ],
+      "output": "modo H3 qualificado, timeline, ancoras por rota, intencao e camera; audio somente no escopo autorizado",
+      "gate": "official_prompt_contract_pass"
+    },
+    {
+      "id": "04_preflight",
+      "label": "Preflight sem GPU",
+      "agents": [
+        "pemara-live-action-showrunner",
+        "pemara-live-action-qc",
+        "pemara-video-motion-director",
+        "test-engineer"
+      ],
+      "output": "identidade, fisica, camera, profundidade, acao interna, progressao e integridade",
+      "gate": "closed_preflight_pass"
+    },
+    {
+      "id": "05_h3_take",
+      "label": "Geracao serial MiniMax H3",
+      "agents": [
+        "automation-engineer",
+        "performance-optimizer"
+      ],
+      "output": "take nativo no perfil escolhido; Production 1088x608 ou 608x1088, 24 fps, 10 steps, guidance 1.0 por padrao; DLSS 5 obrigatorio na previa",
+      "gate": "technical_candidate_only"
+    },
+    {
+      "id": "06_visual_qc",
+      "label": "QC visual e aprovacao humana",
+      "agents": [
+        "pemara-video-production-lead",
+        "pemara-live-action-qc",
+        "pemara-performance-director",
+        "pemara-cinematography-director",
+        "video-production",
+        "pemara-video-motion-director"
+      ],
+      "output": "MP4 integral observado: historia, atuacao, fotografia, identidade, fisica e movimento; timestamps, correcao e integridade, sem inferir aprovacao por metadata",
+      "gate": "owner_visual_approval"
+    },
+    {
+      "id": "07_continuous_connectors",
+      "label": "Continuidade e cortes de acao",
+      "agents": [
+        "pemara-film-editor",
+        "pemara-live-action-kinetic-supervisor",
+        "pemara-live-action-continuity",
+        "pemara-cinematic-take-director",
+        "pemara-video-motion-director"
+      ],
+      "output": "fronteiras revisadas em intervalos moveis e geografia compartilhada; corte direto ou acao ausente por conector permitido; fonte incompatível exige correcao",
+      "gate": "no_crossfade_no_freeze_no_reset"
+    },
+    {
+      "id": "08_picture_lock",
+      "label": "Montagem aprovada e acabamento FHD60",
+      "agents": [
+        "pemara-film-editor",
+        "pemara-video-production-lead",
+        "video-production"
+      ],
+      "output": "candidato FHD/QHD/UHD 60 fps, contain/pad sem corte, audio existente preservado, fonte nativa aprovada retida",
+      "gate": "owner_picture_lock"
+    },
+    {
+      "id": "09_foley",
+      "label": "Audio adicional somente quando solicitado",
+      "agents": [
+        "game-audio-designer",
+        "audio-analysis"
+      ],
+      "output": "audio existente preservado; Foley novo somente no escopo explicitamente autorizado, candidato com escuta e aprovacao proprias",
+      "gate": "owner_audio_approval"
+    },
+    {
+      "id": "10_final_master",
+      "label": "Master final e rollback",
+      "agents": [
+        "pemara-video-production-lead",
+        "pemara-film-editor",
+        "video-production",
+        "test-engineer",
+        "documentation-and-adrs"
+      ],
+      "output": "FHD60, hashes, loudness, manifesto, backup e rollback",
+      "gate": "technical_pass_plus_owner_approval"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Combate Phaser"
+  short_description: "Criar e corrigir combate 2D em Phaser"

@@ -1,0 +1,10 @@
+name = "godot-combat"
+description = "Implementa e verifica armas, mira fixa, dano, inimigos e recursos no Godot 2D de A Terra Devolve."
+
+developer_instructions = """
+Direção vigente: metroidvania lateral; câmera acompanhando Helena, entrada scenes/lateral_slice.tscn, módulos scripts/lateral/ e progresso em slice_state.gd. A demo de câmeras fixas foi retirada. Revise animação no jogo lateral.
+Leia AGENTS.md e .agents/skills/terra-combate-godot/SKILL.md. Implemente incrementalmente em Godot 4.7.2 e GDScript tipado, com sinais e uma fonte de estado; preserve saves do jogador e a stack atual.
+Comece por uma arma, uma ameaça e uma sala. Mira planta Helena e não move a câmera; alcance, cone frontal e oclusão lógica regem alvo/tiro. Separe dano, recurso e animação. Não permita tiro através de obstáculos nem consumo duplicado. R recarrega no lateral; o registro de checkpoint é feito no orelhão.
+Combate deve oferecer controle de espaço e consequência persistente, com ameaça legível, preparação/recuperação e evasão viável. Diferencie inimigos ordinários do Corpo-Seco dirigido. Não confunda animação de tiro com combate funcional ou passe técnico com equilíbrio.
+Respeite propriedade de arquivos e trabalho concorrente. Rode Testar.ps1 e regressões pertinentes em slot separado, inspecione logs e o encontro renderizado. Nenhum asset rejeitado, gerador alternativo, instalação ou publicação entra por conveniência.
+"""

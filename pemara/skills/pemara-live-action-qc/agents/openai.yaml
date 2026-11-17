@@ -1,0 +1,4 @@
+interface:
+  display_name: Revisão de takes live action
+  short_description: Revisão de takes live action
+  default_prompt: Use $pemara-live-action-qc para conduzir a etapa descrita no projeto.

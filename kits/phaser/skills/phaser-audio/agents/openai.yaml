@@ -1,0 +1,3 @@
+interface:
+  display_name: "Áudio de jogos Phaser"
+  short_description: "Medir e integrar música e SFX no Phaser/Web Audio"

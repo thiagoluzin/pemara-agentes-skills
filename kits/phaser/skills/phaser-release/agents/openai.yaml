@@ -1,0 +1,3 @@
+interface:
+  display_name: "Build e entrega Phaser"
+  short_description: "Empacotar e verificar jogos Phaser para web"

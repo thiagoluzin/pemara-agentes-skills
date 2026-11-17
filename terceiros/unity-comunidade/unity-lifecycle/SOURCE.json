@@ -1,0 +1,11 @@
+{
+  "skill": "unity-lifecycle",
+  "repository": "https://github.com/Nice-Wolf-Studio/unity-claude-skills",
+  "commit": "a149d3e995420432f52b0899092daa4b069f441f",
+  "upstream_path": "skills/unity-lifecycle",
+  "files": {
+    "references/editor-runtime-init.md": "75c4b4d7aeede984f3f70b05e4df304711d5d5b63f379561ce2d76d3681520b9",
+    "SKILL.md": "e034001e9aadb8bd5e329a6dac130e449f8552e74d4d7947b919a83d7f41aa55",
+    "LICENSE": "ff3278a6b7546f0f37ab010ec47700a024ed3ac98dcb0c70905484207fc4e546"
+  }
+}

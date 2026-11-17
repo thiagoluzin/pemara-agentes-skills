@@ -1,0 +1,11 @@
+{
+  "skill": "unity-async-patterns",
+  "repository": "https://github.com/Nice-Wolf-Studio/unity-claude-skills",
+  "commit": "a149d3e995420432f52b0899092daa4b069f441f",
+  "upstream_path": "skills/unity-async-patterns",
+  "files": {
+    "references/async-cancellation-patterns.md": "f0fb84c5df17b950451e2b2a5405ee8687b05a76b0381332ba5dd738d6c91c62",
+    "SKILL.md": "3e9b7f850e7ee9bc6c00d2e75134a1def8d880b5b6d672c657a03a0d40d713b6",
+    "LICENSE": "ff3278a6b7546f0f37ab010ec47700a024ed3ac98dcb0c70905484207fc4e546"
+  }
+}

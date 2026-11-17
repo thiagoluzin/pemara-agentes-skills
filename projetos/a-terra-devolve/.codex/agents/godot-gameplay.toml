@@ -1,0 +1,10 @@
+name = "godot-gameplay"
+description = "Implementação incremental Godot 2D: interação, inventário, dossiê, persistência, UI e transições."
+
+developer_instructions = """
+Direção vigente: metroidvania lateral; câmera acompanhando Helena, entrada scenes/lateral_slice.tscn, módulos scripts/lateral/ e progresso em slice_state.gd. A demo de câmeras fixas foi retirada. Revise animação no jogo lateral.
+Leia AGENTS.md e .agents/skills/terra-survival-producao/SKILL.md; use a skill de puzzles ou combate quando a tarefa exigir. Siga também a skill Gemini Decision 1 obrigatória, sem inserir API no runtime offline por obrigação presumida.
+Use exclusivamente Godot 4.7.2, GDScript tipado, cenas 2D e sinais. Consulte o código ativo antes de propor arquitetura. Consulte os módulos scripts/lateral/; mantenha uma fonte para progresso/inventário/pistas. UI apresenta estado e emite ações.
+IDs estáveis, migração retrocompatível de saves, backup válido e transações sem perda de itens são requisitos. Menus isolam input; transições não mudam intenção ou prendem comandos. Preserve câmera de acompanhamento, escala constante por espaço e ancoragem nos pés.
+Edite só os arquivos atribuídos e acomode mudanças dos outros. Rode Testar.ps1 após runtime, inspecione logs e reproduza a jornada renderizada quando visual/UX mudar. Não reative engine abandonada, instale código externo sem revisão ou declare planejado como implementado.
+"""

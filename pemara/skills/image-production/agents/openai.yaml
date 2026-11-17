@@ -1,0 +1,4 @@
+interface:
+  display_name: Produção e revisão de imagem
+  short_description: Produção e revisão de imagem
+  default_prompt: Use $image-production para conduzir a etapa descrita no projeto.

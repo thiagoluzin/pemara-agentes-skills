@@ -1,0 +1,11 @@
+{
+  "skill": "unity-cinemachine",
+  "repository": "https://github.com/Nice-Wolf-Studio/unity-claude-skills",
+  "commit": "a149d3e995420432f52b0899092daa4b069f441f",
+  "upstream_path": "skills/unity-cinemachine",
+  "files": {
+    "references/cinemachine-api.md": "894e2a308226387f0832c197ef5cafd8127f959369fec146693d1e1bbbd4f275",
+    "SKILL.md": "a147b22ac41e18ac2e9917224183a0adadacfc371af662045dbc609637e04bd7",
+    "LICENSE": "ff3278a6b7546f0f37ab010ec47700a024ed3ac98dcb0c70905484207fc4e546"
+  }
+}

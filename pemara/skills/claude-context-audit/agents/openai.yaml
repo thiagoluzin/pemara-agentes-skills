@@ -1,0 +1,4 @@
+interface:
+  display_name: Auditoria de contexto do cliente
+  short_description: Auditoria de contexto do cliente
+  default_prompt: Use $claude-context-audit para conduzir a etapa descrita no projeto.

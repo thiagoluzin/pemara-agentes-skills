@@ -1,0 +1,4 @@
+interface:
+  display_name: Automação de testes ponta a ponta
+  short_description: Automação de testes ponta a ponta
+  default_prompt: Use $qa-automation-engineer para conduzir a etapa descrita no projeto.

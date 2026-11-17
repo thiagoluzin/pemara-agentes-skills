@@ -1,0 +1,13 @@
+{
+  "skill": "unity-physics",
+  "repository": "https://github.com/Nice-Wolf-Studio/unity-claude-skills",
+  "commit": "a149d3e995420432f52b0899092daa4b069f441f",
+  "upstream_path": "skills/unity-physics",
+  "files": {
+    "references/character-controller.md": "51c00d37d0ec15d65049673f1e20b17a4416c15d6945486740562d19e08c643b",
+    "references/physics2d-api.md": "f3a8ab9d40e99d5bc388b44032aa7c7c30619d577c863f03a75a24071d67247a",
+    "references/physics3d-api.md": "5fd9dbb6df8e27e2e72f66d445b2f76264425eca09f32fb83e9d6764db241095",
+    "SKILL.md": "012845f3f8043a9099067f58463de28173fe7e3c924cc83c676dfad7e6e94d79",
+    "LICENSE": "ff3278a6b7546f0f37ab010ec47700a024ed3ac98dcb0c70905484207fc4e546"
+  }
+}

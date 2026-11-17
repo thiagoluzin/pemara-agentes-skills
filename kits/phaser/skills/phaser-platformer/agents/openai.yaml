@@ -1,0 +1,3 @@
+interface:
+  display_name: "Controlador platformer Phaser"
+  short_description: "Implementar e afinar salto"

@@ -1,0 +1,4 @@
+interface:
+  display_name: Direção criativa
+  short_description: Direção criativa
+  default_prompt: Use $creative-director para conduzir a etapa descrita no projeto.

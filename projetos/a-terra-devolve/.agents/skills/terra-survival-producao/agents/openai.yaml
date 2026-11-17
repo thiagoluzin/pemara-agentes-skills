@@ -1,0 +1,4 @@
+interface:
+  display_name: "A Terra Devolve - Produção"
+  short_description: "Direção e entregas jogáveis de survival horror"
+  default_prompt: "Use $terra-survival-producao para organizar o próximo incremento jogável de A Terra Devolve."

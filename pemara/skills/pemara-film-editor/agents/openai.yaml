@@ -1,0 +1,4 @@
+interface:
+  display_name: Montagem narrativa de vídeo
+  short_description: Montagem narrativa de vídeo
+  default_prompt: Use $pemara-film-editor para conduzir a etapa descrita no projeto.

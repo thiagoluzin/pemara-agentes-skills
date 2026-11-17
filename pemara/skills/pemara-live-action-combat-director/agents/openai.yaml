@@ -1,0 +1,5 @@
+interface:
+  display_name: Direção artística de luta ficcional
+  short_description: Direção artística de luta ficcional
+  default_prompt: Use $pemara-live-action-combat-director para conduzir a etapa descrita
+    no projeto.

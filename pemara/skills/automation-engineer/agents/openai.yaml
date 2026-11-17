@@ -1,0 +1,4 @@
+interface:
+  display_name: Automação de rotinas autorizadas
+  short_description: Automação de rotinas autorizadas
+  default_prompt: Use $automation-engineer para conduzir a etapa descrita no projeto.

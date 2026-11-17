@@ -1,0 +1,4 @@
+interface:
+  display_name: "A Terra Devolve - Puzzles"
+  short_description: "Puzzles físicos, atalhos e progressão sem bloqueios"
+  default_prompt: "Use $terra-puzzles-progressao para desenhar e verificar o próximo puzzle de A Terra Devolve."

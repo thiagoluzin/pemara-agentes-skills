@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deploy Pemara"
+  short_description: "Publicação segura com verificação e rollback"
+  default_prompt: "Use $pemara-deploy para preparar e verificar esta publicação com segurança."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analista de Qualidade Pemara"
+  short_description: "Testes independentes e evidência objetiva"
+  default_prompt: "Use $pemara-analista-qualidade para validar esta entrega de forma independente."

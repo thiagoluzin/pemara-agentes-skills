@@ -1,0 +1,21 @@
+{
+  "skill": "unity-profiling",
+  "repository": "https://github.com/tipoLi5890/unity-dev-skills",
+  "commit": "97ba3ca019d80a327c5840271ea3cc83b2196f1b",
+  "upstream_path": "skills/unity-profiling",
+  "files": {
+    "reference/compare.md": "c28152b16ca42140959bd17d16a2e8acd0fd0a19d195fb2eebe43ba255753714",
+    "reference/counters.md": "b8dd9052b1dddee9d45cf44374065492795f3a4bcf8c357d5ef0807592d4e5bf",
+    "reference/frame-windows.md": "e708461e839f0704dc61ec86d7976324d05b23ef69ab4f5410c177d925b015cf",
+    "reference/raw-capture.md": "e60d514f4a89b3297836bb4dca760bd7c8dff5134222afba42cf02c8da403b1f",
+    "reference/where-the-time-goes.md": "837f6949b8ea380dc6b988f53c84574a035cb53695c5dcfa43e80e8071eed968",
+    "reference/work-counters.md": "0163535cc0f2890cf22f3fa87edf07d767a842c4c0622855041d6004b2b3e744",
+    "resources/CounterCatalog.cs": "1e551f9d0c4a76304b50058adc20b06fead539d1f16c529c8a6615662ba4ba17",
+    "resources/FrameSampler.cs": "aa53becacd6c93a842a3fbec729434c659eefccc3e6f87befe5a5705ac64348e",
+    "resources/ProfilerRawCapture.cs": "bd86219ec9542558d2875efb924f6fd840575a41ec625a1698e974d3ffbd0b0a",
+    "resources/WorkCounters.cs": "c474319333158dbae52a9bb1c1bfb3bbe88c688acc7643d4d0737d5b94525b4e",
+    "scripts/compare_windows.py": "44128d6ff2f7f0486ce492447e3dce1c319b64dfa0f765a2e0e7b4700ca05209",
+    "SKILL.md": "69d2fcb0964969f3ceaae648254603c8e5a7aa8c06f57935487f3dd53650a551",
+    "LICENSE": "b306d66ca5b9e43c3f12f1189f3b4338527a660d8ecb3bf36496e3b3b9a32e05"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "skill": "unity-scripting",
+  "repository": "https://github.com/Nice-Wolf-Studio/unity-claude-skills",
+  "commit": "a149d3e995420432f52b0899092daa4b069f441f",
+  "upstream_path": "skills/unity-scripting",
+  "files": {
+    "references/coroutines-and-async.md": "f8b33d75293dc780f1c757398e794a99debaa4bbd7649a60f338f31e2364e06f",
+    "references/monobehaviour-lifecycle.md": "5d001326b57d987a4cc25f6f1fabbc9efdbf3db0aa34202d3d9638bdde1f8c87",
+    "references/object-pool.md": "9b49351c410f7887838357de419e50a75722f545f2d8daaa4faee7cef805760f",
+    "references/scriptableobjects.md": "195ba26cbeaac5dc7e578bf2f2eb3e82471db32ee2f039e3fdd90e33f50813a7",
+    "SKILL.md": "9c7c434964ee5aa13112aaddaeb13c30df8841cccf61860fabc37a2265bba484",
+    "LICENSE": "ff3278a6b7546f0f37ab010ec47700a024ed3ac98dcb0c70905484207fc4e546"
+  }
+}

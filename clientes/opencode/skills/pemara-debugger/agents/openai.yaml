@@ -1,0 +1,4 @@
+interface:
+  display_name: "Debugger Pemara"
+  short_description: "Diagnóstico causal e correção verificada"
+  default_prompt: "Use $pemara-debugger para reproduzir, diagnosticar e corrigir este defeito."
